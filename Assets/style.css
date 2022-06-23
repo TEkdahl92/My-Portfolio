@@ -40,10 +40,14 @@ text-overflow: clip;
 }
 
 .work {
+margin: 0;
+inline-size: 20vw;
+block-size: 40vh;
 display: grid;
 width: 100%;
-grid-template-columns: repeat(6, 1fr);
-
+grid-template-columns: 2fr 1fr;
+grid-template-rows: repeat(2, 1fr);
+gap: 1em;
 
 }
 
@@ -54,27 +58,51 @@ grid-template-columns: repeat(6, 1fr);
     justify-content: center;
     background: lightblue;
     font-family: sans-serif;
+    box-sizing: border-box;
 
 }
 
 .run-buddy {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightblue;
+    font-family: sans-serif;
+    box-sizing: border-box;
 
 }
 
 .pastel-puzzels {
-
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightblue;
+    font-family: sans-serif;
+    box-sizing: border-box;
 
 }
 
-
-
 .calculator {
-
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightblue;
+    font-family: sans-serif;
+    box-sizing: border-box;
 
 }
 
 .led-wall {
-
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./b147ccd7b58effc687d198bd677c1621.jpg);
+    font-family: sans-serif;
+    box-sizing: border-box;
 
 }
 

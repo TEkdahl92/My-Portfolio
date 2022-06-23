@@ -3,35 +3,78 @@
     justify-content: space-between;
     align-items: right;
     padding: 1%;
-    background-color: #13293d;
+    background-color: darkblue;
     color: #fff;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
+    background-image: url(./istockphoto-1298834196-612x612.jpg);
 
 }
-
-
-
-nav ul {
+.nav ul {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
     
-
+    
 }
 
-.subtitle{
+.subtitle {
 display: flex;
 justify-content: flex-end;
 margin: 10;
 padding: 2%;
-
-
+color: #fff;
+font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
 .subtitle-background-image {
-background-image: url(./subtitle-background-image.pdf);
+background-image: url(./istockphoto-1298834196-612x612.jpg);
+
+}
+
+.about-me {
+flex-wrap: wrap;
+text-align: justify;
+text-overflow: clip;
+
+}
+
+.work {
+display: grid;
+width: 100%;
+grid-template-columns: repeat(6, 1fr);
 
 
 }
+
+.surf-report  {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightblue;
+    font-family: sans-serif;
+
+}
+
+.run-buddy {
+
+}
+
+.pastel-puzzels {
+
+
+}
+
+
+
+.calculator {
+
+
+}
+
+.led-wall {
+
+
+}
+

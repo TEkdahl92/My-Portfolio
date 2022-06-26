@@ -4,8 +4,13 @@
     margin: 0;
 }
 
+.html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color: #d9dcd6;
+    background-color: darkblue;
+    
 }
 
 .nav {
@@ -17,8 +22,8 @@ body {
 .header {
     padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url(./black.jpg);
     color: #ffffff;
+    background-color: black;
 }
 
 .nav ul {
@@ -40,7 +45,6 @@ body {
     padding: 50px;
     height: 300px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url(./black.jpg);
     color: #ffffff;
 }
 
@@ -49,7 +53,6 @@ body {
     padding: 50px;
     height: 300px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url(./software-protection-7982244.jpg);
     color: #ffffff;
     display: grid;
 }
